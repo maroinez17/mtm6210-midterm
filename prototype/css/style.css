@@ -2,6 +2,7 @@
 body{
     font-family: 'Fruktur', cursive;
     background: rgba(0, 0, 0, 0.856);
+    width: 100%;
 }
 .logo {
     width: 140px;
@@ -9,6 +10,14 @@ body{
 p{
     color: white;
 }
+h1{
+background: rgba(245, 198, 198, 0.5);
+box-shadow: 0 5px 10px rgba(221, 85, 85, 0.5);
+width: fit-content;
+padding: 20px;
+border-radius: 30px;
+}
+
 header{
     width: 1000px;
     padding: 20px;
@@ -23,6 +32,7 @@ header{
     color: rgb(48, 48, 48);
    
   }
+  /* this is the randome screen  */
 img{
     width: 500px;
 }
@@ -62,29 +72,161 @@ top: 50%;
 left:50%;
 transform: translate(-50%,-50%);
 }
-@media (max-width: 1000px) {
-    h4.contact-text{
-      font-size: 1rem;
-    }
-    p.social-links.contact-edu{
-      font-size: 1.5rem;
-      color: rgb(49, 49, 49);
-    }
+h2{
+  font-size: 40px;
+  color: aqua;
+  text-decoration: underline;
+  padding-left: 20px;
+
+
+  
   }
-  @media (max-width: 700px) {
-    h4.contact-text{
-      font-size: 0.75rem;
-    }
-    h1.artworks-heading{
-      font-size: 2.75rem;
-      margin-top: 2rem;
-    }
+  h4.contact-text{
+    font-size: 10px;
   }
-  @media (max-width: 500px) {
-    h4.contact-text{
-      font-size: 0.5rem;
+  .box{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    max-width: 1200px;
+    padding:30px;
+    background: rgba(2,2, 2,.5 );
+    box-shadow: 0 5px 10px rgba(0,0,0,.5)
+}
+main {
+  align-items:center;
+width:100%;
+background-image: url("../images/biker-480.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding: 70px;
+text-align: left;
+color: white;
+padding-left:15px;
+padding-bottom: 80px;
+height: 900px;
+}
+
+.rooter{
+  background-image: url("../images/helmets-480.png");
+  align-items:center;
+width:100%;
+padding: 70px;
+text-align: left;
+color: white;
+padding-left:15px;
+padding-bottom: 80px;
+background-position: center;
+background-repeat: no-repeat;
+
+
+
+
+
+}
+.box2{
+  width: 600px;
+  height: 400px;
+  position: relative;
+  max-width: 1200px;
+  border-radius: 100px;
+  padding:30px;
+  background: rgba(245, 198, 198, 0.5);
+  box-shadow: 0 5px 10px rgba(221, 85, 85, 0.5);
+}
+.mission{
+  background-image: url("../images/harley-480.png");
+
+}
+/* optimising images for different scren sizes  */
+    /* adding media query for tablet screen */
+    @media (min-width: 760px) and (max-width: 1000px){
+    main {
+    background-image: url("../images/biker-720.png");
     }
-    h1.artworks-heading{
-      font-size: 2rem;
+    .mission{
+      background-image: url("../images/harley-720.png");
+    
     }
+    .rooter{
+      background-image: url("../images/helmets-720.png");
+    }
+    h2{
+      color: rgb(189, 0, 0);
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+      }
   }
+  @media (min-width: 1000px){
+    main {
+      background-image: url("../images/biker-920.png");
+      }
+      .mission{
+        background-image: url("../images/harley-920.png");
+      
+      }
+      
+     
+     
+      .rooter{
+        background-image: url("../images/helmets-920.png");
+        background-size: cover;
+  }
+  p.social-links.contact{
+    font-size: 3.5rem;
+    color: rgb(245, 24, 24);
+  }
+  h4.contact-text{
+    font-size:  2rem;
+  }
+  
+}
+    /* adding media query for mobile and small screen */
+
+  @media (max-width: 720px){
+    main {
+      background-image: url("../images/biker-480.png");
+      }
+      .mission{
+        background-image: url("../images/harley-480.png");
+      
+      }
+      .rooter{
+        background-image: url("../images/helmets-480.png");
+        background-position: center;
+        background-size: contain;
+
+      }
+      
+      
+
+            /* making the body responsive */
+  }
+  
+  
+  
+  
+  
+  
+  
+
+   
+
+  
+
+  
+
+  
+  
+  
+
+ 
+  
+  
+  /* animations */
+  
+   
+  
