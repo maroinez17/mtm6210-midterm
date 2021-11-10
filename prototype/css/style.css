@@ -1,12 +1,16 @@
+/* linking to google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+/* adjusting the size and color of body */
 body{
     font-family: 'Fruktur', cursive;
     background: rgba(0, 0, 0, 0.856);
     width: 100%;
 }
+/* adjusting size of logo */
 .logo {
     width: 140px;
 }
+/* making text white as the main color of text in the website */
 p{
     color: white;
 }
@@ -32,16 +36,18 @@ header{
     color: rgb(48, 48, 48);
    
   }
-  /* this is the randome screen  */
+  /* this is the randome screen size image  */
 img{
     width: 500px;
 }
+/* making adjutments for the search bar and making it */
 .search_wrap .search_box{
 position: relative;
 width: 500px;
 height:60px;
 padding: 10px;
 }
+/* adjuting the input bar size and color and of text */
 .search_wrap .search_box .input{
 position: absolute;
 top:0;
@@ -53,6 +59,7 @@ font-size: large;
 background: rgb(0, 0, 0);
 color: white;
 }
+/* adjusting the btn of the search bar */
 .search_wrap .search_box .btn{
     position:absolute;
     top: 0;
@@ -63,15 +70,20 @@ color: white;
     z-index:1;
     cursor:pointer;
 }
+/* animation of hover when passing on top of the search btn */
 .search_wrap .search_box .btn:hover{
     background: rgb(163, 155, 155);
 }
+
+/* adjuting the the btn position */
+
 .search_wrap .search_box .btn.btn_common .fas{
 position: absolute;
 top: 50%;
 left:50%;
 transform: translate(-50%,-50%);
 }
+/* config of the heading to match the mockup */
 h2{
   font-size: 40px;
   color: aqua;
@@ -84,6 +96,7 @@ h2{
   h4.contact-text{
     font-size: 10px;
   }
+  /* making the box transparant */
   .box{
     width: 600px;
     height: 500px;
@@ -93,6 +106,7 @@ h2{
     background: rgba(2,2, 2,.5 );
     box-shadow: 0 5px 10px rgba(0,0,0,.5)
 }
+/* ading main backround as long as adjusting components */
 main {
   align-items:center;
 width:100%;
@@ -107,7 +121,7 @@ padding-left:15px;
 padding-bottom: 80px;
 height: 900px;
 }
-
+/* adding background image */
 .rooter{
   background-image: url("../images/helmets-480.png");
   align-items:center;
